@@ -122,7 +122,7 @@ export default function Dashboard({ onLogout }: { onLogout: () => void }) {
         <motion.h2 
           animate={{ rotate: [-1, 1, -1] }}
           transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-          className="inline-block text-4xl font-black uppercase bg-white text-black px-8 py-4 rounded-3xl border-6 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] mb-10 transform -rotate-2"
+          className="inline-block text-4xl font-black uppercase bg-[#308c48] text-black px-8 py-4 rounded-3xl border-6 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] mb-10 transform -rotate-2"
         >
           Current Rides
         </motion.h2>
@@ -142,7 +142,7 @@ export default function Dashboard({ onLogout }: { onLogout: () => void }) {
         <motion.h2 
           animate={{ rotate: [1, -1, 1] }}
           transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-          className="inline-block text-4xl font-black uppercase bg-white text-black px-8 py-4 rounded-3xl border-6 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] mb-10 transform rotate-2"
+          className="inline-block text-4xl font-black uppercase bg-red-400 text-black px-8 py-4 rounded-3xl border-6 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] mb-10 transform rotate-2"
         >
           Previous Rides
         </motion.h2>
