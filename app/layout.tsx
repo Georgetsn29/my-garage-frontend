@@ -5,7 +5,7 @@ import './globals.css'; // Global styles
 const font = Bricolage_Grotesque({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  title: 'The My-Garage',
+  title: 'My-Garage',
   description: 'Catalog your rides in style.',
 };
 
