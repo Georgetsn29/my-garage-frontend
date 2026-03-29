@@ -14,9 +14,9 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
           initial={{ scale: 0, rotate: -180 }}
           animate={{ scale: 1, rotate: -10 }}
           transition={{ type: 'spring', bounce: 0.7, delay: 0.1 }}
-          className="inline-block bg-[#FF90E8] p-8 rounded-[3rem] border-8 border-black shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] mb-12"
+          className="inline-block bg-[#FF90E8] p-6 rounded-[3rem] border-7 border-black shadow-[14px_14px_0px_0px_rgba(0,0,0,1)] mb-12"
         >
-          <CarFront size={100} strokeWidth={3} />
+          <CarFront size={80} strokeWidth={2.5} />
         </motion.div>
         
         <motion.h1 
@@ -35,7 +35,7 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
           transition={{ type: 'spring', bounce: 0.6, delay: 0.3 }}
           className="mb-16"
         >
-          <span className="text-3xl md:text-4xl font-black uppercase bg-[#00E5FF] text-black px-8 py-4 border-8 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] rounded-full inline-block transform rotate-3">
+          <span className="text-3xl md:text-4xl font-black uppercase bg-[#00E5FF] text-black px-8 py-4 border-6 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] rounded-full inline-block transform rotate-3">
             Your Digital Showroom!
           </span>
         </motion.div>
@@ -47,7 +47,7 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
           whileHover={{ scale: 1.1, rotate: -2 }}
           whileTap={{ scale: 0.9, rotate: 2 }}
           onClick={onEnter}
-          className="bg-[#FFEA00] text-black font-black uppercase text-5xl px-16 py-8 rounded-[3rem] border-8 border-black shadow-[20px_20px_0px_0px_rgba(0,0,0,1)] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[12px] hover:translate-y-[12px] transition-all"
+          className="bg-[#FFEA00] text-black font-black uppercase text-5xl px-16 py-8 rounded-[3rem] border-6 border-black shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[12px] hover:translate-y-[12px] transition-all"
         >
           Let&apos;s Go!
         </motion.button>
