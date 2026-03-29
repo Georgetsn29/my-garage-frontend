@@ -84,7 +84,7 @@ export default function Dashboard({ onLogout }: { onLogout: () => void }) {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
         <motion.div 
           whileHover={{ scale: 1.05, rotate: 2 }}
-          className="bg-[#FFEA00] border-6 border-black rounded-[2rem] p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex items-center gap-6"
+          className="bg-[#ebdf09] border-6 border-black rounded-[2rem] p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex items-center gap-6"
         >
           <div className="bg-white p-4 rounded-full border-4 border-black">
             <Trophy size={40} className="text-black" />
@@ -97,7 +97,7 @@ export default function Dashboard({ onLogout }: { onLogout: () => void }) {
 
         <motion.div 
           whileHover={{ scale: 1.05, rotate: -2 }}
-          className="bg-[#00E5FF] border-6 border-black rounded-[2rem] p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex items-center gap-6"
+          className="bg-[#1e70c7] border-6 border-black rounded-[2rem] p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex items-center gap-6"
         >
           <div className="bg-white p-4 rounded-full border-4 border-black">
             <Wrench size={40} className="text-black" />
